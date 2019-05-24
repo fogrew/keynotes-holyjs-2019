@@ -1,0 +1,98 @@
+.shower {
+  --slide-ratio: calc(16 / 9);
+}
+
+.brand {
+  color: var(--color-brand);
+}
+
+/* intro slide */
+.slide.intro {
+  background: url(../images/corner-top-left.svg) no-repeat, url(../images/corner-bottom-right.svg) bottom right no-repeat;
+  background-size: 20%, 20%;
+  background-color: #fff;
+}
+.slide.intro h2 {
+  /*font-size: 100px;*/
+}
+.slide.intro .number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.slide.intro .number img {
+  transform: translate(-25%);
+  /*margin-top: -100px;*/
+  /*margin-left: -50px;*/
+}
+.slide.intro .number .title {
+  margin: 0;
+  font-size: 90px;
+  font-weight: bold;
+  color: #000;
+}
+.slide.intro .number p.desc {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: var(--color-brand);
+}
+.slide.intro .logo {
+  max-height: 60%;
+}
+
+/* first time slide */
+.slide.first-time {
+  padding-left: 25%;
+}
+.slide.first-time .first-time-text {
+  font-size: 85px;
+}
+.slide.first-time .raising-hand {
+  width: 25%;
+} 
+
+/* image focusing slide template */
+.slide.image-focusing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slide.image-focusing .name {
+  position: absolute;
+  top: 2em;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 48px;
+}
+.slide.image-focusing .image {
+  width: 75%;
+  height: auto;
+}
+
+/* socials icons */
+.socials li:before {
+  color: transparent;
+}
+.socials .social-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: text-bottom;
+}
+
+/* raising hand icon */
+.raising-hand {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.raising-hand--base {
+  height: 1em;
+}
+.raising-hand--big {
+  height: 2em;
+}
