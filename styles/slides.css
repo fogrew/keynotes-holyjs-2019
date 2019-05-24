@@ -12,9 +12,7 @@
   background-size: 20%, 20%;
   background-color: #fff;
 }
-.slide.intro h2 {
-  /*font-size: 100px;*/
-}
+
 .slide.intro .number {
   display: flex;
   align-items: center;
@@ -95,4 +93,17 @@
 }
 .raising-hand--big {
   height: 2em;
+}
+
+.list-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.list-row li {
+  display: flex;
+  align-items: center;
+}
+.list-row .social-icon {
+  margin-right: .25em;
 }
